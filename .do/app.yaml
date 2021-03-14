@@ -1,9 +1,0 @@
-name: Sergio Pinto Personal website
-static_sites:
-- build_command: rm -r ./public; yarn build
-  environment_slug: eleventy
-  github:
-    branch: main
-    deploy_on_push: true
-    repo: opistola/my-site
-  name: Sergio Pinto Personal website
