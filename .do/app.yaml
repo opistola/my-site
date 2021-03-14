@@ -1,6 +1,6 @@
 name: Sergio Pinto Personal website
 static_sites:
-- build_command: rm -r ./public; yarn build ./public
+- build_command: rm -r ./public; yarn build
   environment_slug: eleventy
   github:
     branch: main
